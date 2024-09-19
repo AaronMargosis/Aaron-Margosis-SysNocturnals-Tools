@@ -43,7 +43,7 @@ longer available on their blog platform, including LUA Buglight, and the App Ins
 |||
 |**SysNocturnals Suite**||
 |||
-|[SysNocturnalsSuite.zip](https://github.com/AaronMargosis/Aaron-Margosis-SysNocturnals-Tools/releases/latest/download/SysNocturnalsSuite.zip)|All the latest SysNocturnals Tools in one zip file|
+|[SysNocturnalsSuite.zip](https://github.com/AaronMargosis/Aaron-Margosis-SysNocturnals-Tools/releases/download/SysNocturnalsSuite/SysNocturnalsSuite.zip)|All the latest SysNocturnals Tools in one zip file|
 
 ### Common features of the SysNocturnals tools
 
