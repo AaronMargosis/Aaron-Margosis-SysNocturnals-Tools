@@ -74,7 +74,7 @@ It's now available again.
 
 [Download LUA Buglight](https://github.com/AaronMargosis/Aaron-Margosis-SysNocturnals-Tools/releases/download/SysNocturnalsExtras/LuaBuglight.zip)
 
-### App Install Recorder scripts
+### App Install Recorder blog post and scripts
 
 `The Case of the App Install Recorder` is a troubleshooting case 
 in _[Troubleshooting with the Windows Sysinternals Tools](https://www.microsoftpressstore.com/store/troubleshooting-with-the-windows-sysinternals-tools-9780735684447)_ in which
@@ -83,6 +83,9 @@ the original installer program. It first appeared on my blog along with the scri
 multiple blog platforms, the blog post is still online, [kind of](https://techcommunity.microsoft.com/t5/windows-blog-archive/the-case-of-the-app-install-recorder/ba-p/701461),
 but the many screenshots and illustrations are gone, as are the scripts. They're now back, here. The zip file contains the original HTML
 (with all the embedded screenshots), and the original zip file containing the scripts.
+
+(Since I wrote that post, there have been numerous improvements to Procmon that would probably improve this solution, particularly in distinguishing "write" from other
+operations.)
 
 [Download `The Case of the App Install Recorder`](https://github.com/AaronMargosis/Aaron-Margosis-SysNocturnals-Tools/releases/download/SysNocturnalsExtras/The.Case.of.the.App.Install.Recorder.zip)
 
