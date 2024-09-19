@@ -40,6 +40,10 @@ longer available on their blog platform, including LUA Buglight, and the App Ins
 |||
 |[VirtMemTest](https://github.com/AaronMargosis/VirtMemTest/) [`(README)`](https://github.com/AaronMargosis/VirtMemTest/blob/master/README.md)|GUI app for testing memory allocation, CPU-hog, hung-app, and other scenarios|
 |[Zombie Maker](https://github.com/AaronMargosis/ZombieMaker/) [`(README)`](https://github.com/AaronMargosis/ZombieMaker/blob/master/README.md)|Creates zombie processes/threads for demonstration/testing purposes (e.g., with ZombieFinder)|
+|||
+|**SysNocturnals Suite**||
+|||
+|[SysNocturnalsSuite.zip](/releases/download/SysNocturnalsSuite/SysNocturnalsSuite.zip)|All the latest SysNocturnals Tools in one zip file|
 
 ### Common features of the SysNocturnals tools
 
@@ -65,7 +69,7 @@ It's now available again.
 
 [Online documentation about LUA Buglight](https://techcommunity.microsoft.com/t5/windows-blog-archive/lua-buglight-2-3-with-support-for-windows-8-1-and-windows-10/ba-p/701459)
 
-[Download LUA Buglight](link)
+[Download LUA Buglight](/releases/download/SysNocturnalsExtras/LuaBuglight.zip)
 
 ### App Install Recorder scripts
 
@@ -77,7 +81,7 @@ multiple blog platforms, the blog post is still online, [kind of](https://techco
 but the many screenshots and illustrations are gone, as are the scripts. They're now back, here. The zip file contains the original HTML
 (with all the embedded screenshots), and the original zip file containing the scripts.
 
-[Download `The Case of the App Install Recorder`](link)
+[Download `The Case of the App Install Recorder`](/releases/download/SysNocturnalsExtras/The.Case.of.the.App.Install.Recorder.zip)
 
 ### IEZoneAnalyzer
 
@@ -88,7 +92,7 @@ less value than it had when I first published it, but I understand that IE's sec
 As with the attachments and other downloadable content from my old blogs, IEZoneAnalyzer has gone missing for a while. It's now
 available here, along with its full documentation (Word doc).
 
-[Download `IEZoneAnalyzer`](link)
+[Download `IEZoneAnalyzer`](/releases/download/SysNocturnalsExtras/IEZoneAnalyzer.3.5.0.5.zip)
 
 The surviving original blog posts also document its purpose and usage, even with some screenshots:
 * [IEZoneAnalyzer v3](https://learn.microsoft.com/en-us/archive/blogs/fdcc/iezoneanalyzer-v3)
