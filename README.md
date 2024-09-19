@@ -16,25 +16,25 @@ tools' source code is also available and free for use under terms of the MIT lic
 |**Troubleshooting tools**||
 |||
 |[Zombie Finder](https://github.com/AaronMargosis/ZombieFinder/) [`(README)`](https://github.com/AaronMargosis/ZombieFinder/blob/master/README.md)|Identifies zombie processes/threads and the living processes causing them to be undead.<br>A "zombie process" is the kernel memory leakage of process and thread handles of processes that have exited.|
-|`GuiObjectUse`|Reports GUI object use by process in session 0 or other sessions.<br>Its primary use case is to find the root cause of session 0 desktop heap exhaustion.|
+|[GuiObjectUse](https://github.com/AaronMargosis/GuiObjectUse/) [`(README)`](https://github.com/AaronMargosis/GuiObjectUse/blob/master/README.md)|Reports GUI object use by process in session 0 or other sessions.<br>Its primary use case is to find the root cause of session 0 desktop heap exhaustion.|
 |||
 |**Management tools**||
 |||
-|`AppLockerPolicyTool`|AppLocker policy management, through Local GPO and CSP, which is the interface used by MDM providers such as Intune.|
-|`RunAsUsers`|Tool for executing programs in the desktop and security context of interactively logged-on users, from code running as System in session 0.|
-|`WindowTool`|Window management tool|
+|[AppLockerPolicyTool](https://github.com/AaronMargosis/AppLockerPolicyTool/) [`(README)`](https://github.com/AaronMargosis/AppLockerPolicyTool/blob/master/README.md)|AppLocker policy management, through Local GPO and CSP, which is the interface used by MDM providers such as Intune.|
+|[RunAsUsers](https://github.com/AaronMargosis/RunAsUsers/) [`(README)`](https://github.com/AaronMargosis/RunAsUsers/blob/master/README.md)|Tool for executing programs in the desktop and security context of interactively logged-on users, from code running as System in session 0.|
+|[WindowTool](https://github.com/AaronMargosis/WindowTool/) [`(README)`](https://github.com/AaronMargosis/WindowTool/blob/master/README.md)|Window management tool|
 |||
 |**Informational tools**||
 |||
-|`TSSessions`|Enumerates terminal services sessions, window stations, desktops, and more|
-|`GetLocalizedResources`|Extracts localized text from resource files and other Portable Executable binaries|
-|`RegBinaryToSD`|Converts REG_BINARY data to a readable Security Descriptor or SDDL|
-|`SddlHelp`|Helps with writing and understanding Security Descriptor Definition Language (SDDL), which is a textual means for representing Windows security descriptors, and how to do so for a variety of object types.|
+|[TSSessions](https://github.com/AaronMargosis/TSSessions/) [`(README)`](https://github.com/AaronMargosis/TSSessions/blob/master/README.md)|Enumerates terminal services sessions, window stations, desktops, and more|
+|[GetLocalizedResources](https://github.com/AaronMargosis/GetLocalizedResources/) [`(README)`](https://github.com/AaronMargosis/GetLocalizedResources/blob/master/README.md)|Extracts localized text from resource files and other Portable Executable binaries|
+|[RegBinaryToSD](https://github.com/AaronMargosis/RegBinaryToSD/) [`(README)`](https://github.com/AaronMargosis/RegBinaryToSD/blob/master/README.md)|Converts REG_BINARY data to a readable Security Descriptor or SDDL|
+|[SddlHelp](https://github.com/AaronMargosis/SddlHelp/) [`(README)`](https://github.com/AaronMargosis/SddlHelp/blob/master/README.md)|Helps with writing and understanding Security Descriptor Definition Language (SDDL), which is a textual means for representing Windows security descriptors, and how to do so for a variety of object types.|
 |||
 |**Test-scenario tools**||
 |||
-|`VirtMemTest`|GUI app for testing memory allocation, CPU-hog, hung-app, and other scenarios|
-|`Zombie Maker`|Creates zombie processes/threads for demonstration/testing purposes (e.g., with ZombieFinder)|
+|[VirtMemTest](https://github.com/AaronMargosis/VirtMemTest/) [`(README)`](https://github.com/AaronMargosis/VirtMemTest/blob/master/README.md)|GUI app for testing memory allocation, CPU-hog, hung-app, and other scenarios|
+|[Zombie Maker](https://github.com/AaronMargosis/ZombieMaker/) [`(README)`](https://github.com/AaronMargosis/ZombieMaker/blob/master/README.md)|Creates zombie processes/threads for demonstration/testing purposes (e.g., with ZombieFinder)|
 
 ## Common features of the SysNocturnals tools
 
