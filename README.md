@@ -8,6 +8,11 @@ makes a great gift!) I came up with the name "SysNocturnals" rather late at nigh
 Like the Sysinternals tools, the SysNocturnals tools are entirely free for use. Unlike the current Sysinternals tools, the SysNocturnals
 tools' source code is also available and free for use under terms of the MIT license.
 
+At the moment, the SysNocturnals binaries are not signed -- I'm working on getting that taken care of.
+
+While I'm at it, I'm also providing a repository here for binaries and tools that I published on my blogs at Microsoft that are no
+longer available on their blog platform, including LUA Buglight, and the App Install Recorder scripts. See “**SysNocturnals Extras**,” below.
+
 ## The SysNocturnals tool set
 
 |Name|Description|
@@ -36,15 +41,58 @@ tools' source code is also available and free for use under terms of the MIT lic
 |[VirtMemTest](https://github.com/AaronMargosis/VirtMemTest/) [`(README)`](https://github.com/AaronMargosis/VirtMemTest/blob/master/README.md)|GUI app for testing memory allocation, CPU-hog, hung-app, and other scenarios|
 |[Zombie Maker](https://github.com/AaronMargosis/ZombieMaker/) [`(README)`](https://github.com/AaronMargosis/ZombieMaker/blob/master/README.md)|Creates zombie processes/threads for demonstration/testing purposes (e.g., with ZombieFinder)|
 
-## Common features of the SysNocturnals tools
+### Common features of the SysNocturnals tools
 
-### x64 and x86 builds
+#### x64 and x86 builds
 Most but not all of the SysNocturnals tools are provided in x64 and x86 versions, named _`ToolName`.exe_ and _`ToolName`32.exe_. The 32-bit versions will of course
 work on 32-bit Windows versions (yes, there still are some), and should work correctly on 64-bit as well, as they will selectively and temporarily disable
 WOW64 file system redirection. `AppLockerPolicyTool.exe` and `RunAsUsers.exe` are both x86 only, and will work correctly on all supported Windows versions.
 
-### Tab-delimited text with headers
+#### Tab-delimited text with headers
 The tools' text output is often tab-delimited text with headers. I prefer this format over comma-separated text, as it largely avoids the need of having 
 to modify data when it contains embedded delimiter characters (e.g., having to quote text that contains commas and then deal with embedded quotes)
 and then determine which is the data and which are added characters that should be removed. Also, when tab-delimited text is on the clipboard, it pastes
 very easily into Microsoft Excel.
+
+## SysNocturnals Extras
+
+### LUA Buglight
+
+`LUA Buglight` is a tool I wrote years ago while at Microsoft for identifying admin-permissions issues (a.k.a., "LUA bugs") in 
+desktop applications. That is, it identifies the specific reasons that a particular application works only when run with 
+administrative rights. The blog post that describes LUA Buglight is still online but the LUA Buglight download disappeared a few years ago. 
+It's now available again.
+
+[Online documentation about LUA Buglight](https://techcommunity.microsoft.com/t5/windows-blog-archive/lua-buglight-2-3-with-support-for-windows-8-1-and-windows-10/ba-p/701459)
+
+[Download LUA Buglight](link)
+
+### App Install Recorder scripts
+
+`The Case of the App Install Recorder` is a troubleshooting case 
+in _[Troubleshooting with the Windows Sysinternals Tools](https://www.microsoftpressstore.com/store/troubleshooting-with-the-windows-sysinternals-tools-9780735684447)_ in which
+elaborate scripts take a Process Monitor trace of an application install and make it possible to replicate that installation without
+the original installer program. It first appeared on my blog along with the scripts in a downloadable zip file. After migrating through 
+multiple blog platforms, the blog post is still online, [kind of](https://techcommunity.microsoft.com/t5/windows-blog-archive/the-case-of-the-app-install-recorder/ba-p/701461),
+but the many screenshots and illustrations are gone, as are the scripts. They're now back, here. The zip file contains the original HTML
+(with all the embedded screenshots), and the original zip file containing the scripts.
+
+[Download `The Case of the App Install Recorder`](link)
+
+### IEZoneAnalyzer
+
+IEZoneAnalyzer is a tool I last worked on in 2015 for viewing and comparing Internet Explorer security zone settings, and for
+determining to which zone a given URL is assigned. With Internet Explorer now long gone, IEZoneAnalyzer is of significantly 
+less value than it had when I first published it, but I understand that IE's security zones are still relevant in some scenarios.
+
+As with the attachments and other downloadable content from my old blogs, IEZoneAnalyzer has gone missing for a while. It's now
+available here, along with its full documentation (Word doc).
+
+[Download `IEZoneAnalyzer`](link)
+
+The surviving original blog posts also document its purpose and usage, even with some screenshots:
+* [IEZoneAnalyzer v3](https://learn.microsoft.com/en-us/archive/blogs/fdcc/iezoneanalyzer-v3)
+* [IEZoneAnalyzer v3.5 with Zone Map Viewer](https://learn.microsoft.com/en-us/archive/blogs/fdcc/iezoneanalyzer-v3-5-with-zone-map-viewer)
+* [IEZoneAnalyzer update: v3.5.0.5](https://learn.microsoft.com/en-us/archive/blogs/fdcc/iezoneanalyzer-update-v3-5-0-5)
+
+
