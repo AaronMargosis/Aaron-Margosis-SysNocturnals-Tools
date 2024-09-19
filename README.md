@@ -55,8 +55,11 @@ WOW64 file system redirection. `AppLockerPolicyTool.exe` and `RunAsUsers.exe` ar
 #### Tab-delimited text with headers
 The tools' text output is often tab-delimited text with headers. I prefer this format over comma-separated text, as it largely avoids the need of having 
 to modify data when it contains embedded delimiter characters (e.g., having to quote text that contains commas and then deal with embedded quotes)
-and then determine which is the data and which are added characters that should be removed. Also, when tab-delimited text is on the clipboard, it pastes
-very easily into Microsoft Excel.
+and then determine which is the data and which are added characters that should be removed. Also, tab-delimited text on the clipboard pastes
+perfectly right into Microsoft Excel. Tab-delimited CSV is also super easy to work with in PowerShell: pipe it in to ``ConvertFrom-Csv -Delimiter "`t"`` and 
+now you've got objects. For example:
+
+``GuiObjectUse.exe | ConvertFrom-Csv -Delimiter "`t" | ?{ $_."User objects" -gt 30 }``
 
 ## SysNocturnals Extras
 
