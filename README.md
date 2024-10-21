@@ -18,7 +18,7 @@ longer available on their blog platform, including LUA Buglight, the App Install
 |||
 |**Troubleshooting tools**||
 |||
-|[Zombie Finder](https://github.com/AaronMargosis/ZombieFinder/) [`(README)`](https://github.com/AaronMargosis/ZombieFinder/blob/master/README.md)|Identifies zombie processes/threads and the living processes causing them to be undead.<br>A "zombie process" is the kernel memory leakage of process and thread handles of processes that have exited.|
+|[Zombie Finder](https://github.com/AaronMargosis/ZombieFinder/) [`(README)`](https://github.com/AaronMargosis/ZombieFinder/blob/master/README.md) [_(Video presentation)_](https://youtu.be/bKEvxSGhS-M)|Identifies zombie processes/threads and the living processes causing them to be undead.<br>A "zombie process" is the kernel memory leakage of process and thread handles of processes that have exited.|
 |[GuiObjectUse](https://github.com/AaronMargosis/GuiObjectUse/) [`(README)`](https://github.com/AaronMargosis/GuiObjectUse/blob/master/README.md)|Reports GUI object use by process in session 0 or other sessions.<br>Its primary use case is to find the root cause of session 0 desktop heap exhaustion.|
 |||
 |**Management tools**||
