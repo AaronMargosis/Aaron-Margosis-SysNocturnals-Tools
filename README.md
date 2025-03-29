@@ -30,7 +30,7 @@ longer available on their blog platform, including LUA Buglight, the App Install
 |**Informational tools**||
 |||
 |[TSSessions](https://github.com/AaronMargosis/TSSessions/) [`(README)`](https://github.com/AaronMargosis/TSSessions/blob/master/README.md)|Enumerates terminal services sessions, window stations, desktops, and more|
-|[GetLocalizedResources](https://github.com/AaronMargosis/GetLocalizedResources/) [`(README)`](https://github.com/AaronMargosis/GetLocalizedResources/blob/master/README.md)|Extracts localized text from resource files and other Portable Executable binaries|
+|[GetLocalizedResources](https://github.com/AaronMargosis/GetLocalizedResources/) [`(README)`](https://github.com/AaronMargosis/GetLocalizedResources/blob/master/README.md)|Extracts localized text from indirect strings, resource files, and other Portable Executable binaries|
 |[RegBinaryToSD](https://github.com/AaronMargosis/RegBinaryToSD/) [`(README)`](https://github.com/AaronMargosis/RegBinaryToSD/blob/master/README.md)|Converts REG_BINARY data to a readable Security Descriptor or SDDL|
 |[SddlHelp](https://github.com/AaronMargosis/SddlHelp/) [`(README)`](https://github.com/AaronMargosis/SddlHelp/blob/master/README.md)|Helps with writing and understanding Security Descriptor Definition Language (SDDL), which is a textual means for representing Windows security descriptors, and how to do so for a variety of object types.|
 |||
