@@ -1,12 +1,14 @@
 # Aaron Margosis' SysNocturnals Tools
 
-The **"SysNocturnals Tools"** are a set of utilities for the Windows platform, primarily for diagnostic, troubleshooting, and informational purposes. They are inspired 
+The **"SysNocturnals Tools"** are a set of signed utilities for the Windows platform, primarily for diagnostic, troubleshooting, and informational purposes. They are inspired 
 by and not entirely dissimilar from Microsoft's [Sysinternals](https://www.sysinternals.com) tools, about which I co-wrote the authoritative 
 reference books with Mark Russinovich. (BTW, _[Troubleshooting with the Windows Sysinternals Tools](https://www.microsoftpressstore.com/store/troubleshooting-with-the-windows-sysinternals-tools-9780735684447)_
 makes a great gift!) I came up with the name "SysNocturnals" rather late at night, which is when I've always done most of my work.
 
 Like the Sysinternals tools, the SysNocturnals tools are entirely free for use. Unlike the current Sysinternals tools, the SysNocturnals
 tools' source code is also available and free for use under terms of the MIT license.
+
+The compiled binaries are all digitally signed, as are the scripts in the Releases zip.
 
 While I'm at it, I'm also providing a repository here for binaries and tools that I published on my blogs at Microsoft that are no
 longer available on their blog platform, including LUA Buglight, the App Install Recorder scripts, and IEZoneAnalyzer. See “**SysNocturnals Extras**” [here](https://github.com/AaronMargosis/Aaron-Margosis-SysNocturnals-Extras).
@@ -39,6 +41,9 @@ longer available on their blog platform, including LUA Buglight, the App Install
 |[VirtMemTest](https://github.com/AaronMargosis/VirtMemTest/) [`(README)`](https://github.com/AaronMargosis/VirtMemTest/blob/master/README.md)|GUI app for testing memory allocation, CPU-hog, hung-app, and other scenarios|
 |[Zombie Maker](https://github.com/AaronMargosis/ZombieMaker/) [`(README)`](https://github.com/AaronMargosis/ZombieMaker/blob/master/README.md)|Creates zombie processes/threads for demonstration/testing purposes (e.g., with ZombieFinder)|
 |||
+|**SysNocturnals Scripts**||
+|||
+|[Scripts](https://github.com/AaronMargosis/Scripts/) [`(README)`](https://github.com/AaronMargosis/Scripts/blob/master/README.md)|PowerShell scripts to download Sysinternals and SysNocturnals tools, list the contents of zip files, replicate the "touch" command, and more.|
 |**SysNocturnals Suite**||
 |||
 |[SysNocturnalsSuite.zip](https://github.com/AaronMargosis/Aaron-Margosis-SysNocturnals-Tools/releases/download/SysNocturnalsSuite/SysNocturnalsSuite.zip)|All the latest SysNocturnals Tools in one zip file|
@@ -49,6 +54,8 @@ longer available on their blog platform, including LUA Buglight, the App Install
 Most but not all of the SysNocturnals tools are provided in x64 and x86 versions, named _`ToolName`.exe_ and _`ToolName`32.exe_. The 32-bit versions will of course
 work on 32-bit Windows versions (yes, there still are some), and should work correctly on 64-bit as well, as they will selectively and temporarily disable
 WOW64 file system redirection. `AppLockerPolicyTool.exe` and `RunAsUsers.exe` are both x86 only, and will work correctly on all supported Windows versions.
+
+All of the compiled binaries are digitally signed.
 
 #### Tab-delimited text with headers
 The tools' text output is often tab-delimited text with headers. I prefer this format over comma-separated text, as it largely avoids the need of having 
